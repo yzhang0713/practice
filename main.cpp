@@ -16,6 +16,6 @@ class B : public A {
 int main() {
 
     B* x = new B[2];
-    B* y = x[0];
+    B* y = &x[0];
 
 }
