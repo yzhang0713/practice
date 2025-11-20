@@ -5,6 +5,9 @@ using namespace std;
 class A {
     public:
     A() {cout << "A" << endl;}
+    void hi() {
+		cout << "hihihi" << endl;
+	}
 };
 
 class B : public A {
