@@ -5,8 +5,9 @@ using namespace std;
 class A {
     public:
     A() {cout << "A" << endl;}
+
     virtual void hi() {
-        cout << "hi" << endl;
+        cout << "hihihi" << endl;
     }
 };
 
